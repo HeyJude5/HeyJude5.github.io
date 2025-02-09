@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <TITLE>포트폴리오</TITLE>
+    <style>
+                        body {
+                            text-align: center;
+                            font-family: sans-serif;
+                        }
+
+        
+                        .ALL {
+
+                            text-align: center;
+                            width: 400px; /* 🔴 고정 너비 */
+                            
+                            margin-top: 40px;
+                            margin-bottom: 40px;
+                            margin-right: 20px;
+                         }
+
+                        .ALL img {
+                            width: 100%; /* 🔴 부모 크기에 맞춤 */
+                            height: auto;
+                            display: block;
+                            margin-right: 10px;
+                            text-align: center;
+
+                        }
+
+                        .ALL button {
+                            margin-top: 10px;
+                            padding: 10px 15px;
+                            border: none;
+                            background-color: #007bff;
+                            color: white;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                        .ALL_box {
+                            display: flex;
+                            padding: 10px;
+                            justify-content: center;
+                            align-items: center;
+                        }
+    </style>
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+    <h1>김동민의 포트폴리오 계획표</h1>
+    <div>   
+        <h>안녕하세요 웹풀스택개발중인 김동민입니다!
+        <br>
+        제 프로젝트 계획을 소개합니다.
+        </h>
+    </div>
+        <div class="ALL_box"> 
+                <div class="ALL">
+                     <img src="./img/board.png">
+                    <p>Board</p>
+                    <input type="button" value="Board" onclick="alert('계획중');">
+                    <br>
+                </div>
+
+                  <div class="ALL">
+                        <img src="./img/TODOLIST.png">
+                        <p>TODOLIST</p>
+                        <input type="button" value="TODOLIST" onclick="alert('계획중');">
+                        <br>
+                        <br>
+                </div>
+                
+
+                <div class="ALL">
+                    <img src="./img/Calendar.png">
+                    <p>Calendar</p>
+                    <input type="button" value="Calendar" onclick="alert('계획중');">
+                    <br>
+                    <br>
+
+                </div>  
+        </div>  
+</body>
+
+</html>
